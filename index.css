@@ -1,0 +1,876 @@
+body
+{
+    font-family: iranyekan;
+}
+.container
+{
+    max-width: 1350px;
+}
+.breadcrumb .container a
+{
+    font-size: 12px;
+}
+.breadcrumb .container a:last-child
+{
+    color: #7b34d1;
+}
+.text-indigo
+{
+    color: #7b34d1;
+}
+.bg-indigo
+{
+    background-color: #9978fa !important;
+}
+.border-indigo
+{
+    border-color: #7b34d1;
+}
+.product-price .badge
+{
+    font-size: 0.9rem;
+    padding: 15px;
+}
+.color-carousel .card
+{
+    background-color: #fbfaff;
+}
+.image-dots
+{
+    max-height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.image-dots .btn
+{
+    height: 100px;
+    width: 85px;
+}
+
+.image-dots .btn.active
+{
+    border-color: #7b34d1 !important;
+}
+.discount-badge
+{
+    left: 0;
+    top: 15px;
+    z-index: 3;
+    width: 70px;
+    font-size: 18px;
+    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 30px 30px 0px;
+}
+.product-color > h5
+{
+    font-size: 1.1rem;
+}
+.add-to-cart button
+{
+    border-radius: 15px !important;
+}
+.site-reliability h6
+{
+    margin-right: 8px;
+    font-size: 0.72rem;
+}
+.site-reliability img
+{
+    filter: grayscale(1);
+    transition: 0.5s ease;
+}
+.site-reliability .col-3:hover img
+{
+    filter: grayscale(0);
+}
+.product-detail .btn
+{
+    font-size: 18px;
+    opacity: 0.5;
+}
+.product-detail .btn:not(.collapsed)
+{
+    border-bottom: 1px solid #7b34d1;
+    padding-bottom: 20px;
+    font-weight: 700;
+    opacity: 1;
+}
+#product-status
+{
+    background-color: rgba(0,0,0,0.02);
+}
+.comment-avatar
+{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.comment-text {
+    margin-right: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebebeb;
+}
+.comment-item
+{
+    margin-top: 30px;
+}
+.comment-text h3
+{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.comment-text h3 small
+{
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.comment-text h3 span
+{
+    font-size: 0.9rem;
+    margin-right: 15px;
+}
+.comment-body
+{
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+.comment-status
+{
+    margin-top: 20px;
+}
+.comment-status p
+{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+.add-comment
+{
+    margin-right: 30px;
+}
+.add-comment-title
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.add-comment-body
+{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.add-comment .form-control-lg
+{
+    font-size: 1rem;
+    padding: 20px 15px;
+}
+.comment-status-choice label input ~ ion-icon
+{
+    filter: grayscale(1);
+    transition: 0.5s ease;
+}
+
+.comment-status-choice label input:checked ~ ion-icon
+{
+    filter: grayscale(0);
+}
+.comment-status-choice button.btn
+{
+    border-radius: 15px;
+    font-size: 1.1rem;
+    border-bottom: none !important;
+    background-color: #7b34d1;
+}
+.product-carousel-card .card-header > img
+{
+    height: 380px;
+    width: 100%;
+}
+.product-carousel-card .card-header .second-image
+{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+.product-carousel-card .card-header:hover .second-image
+{
+    opacity: 1;
+}
+.product-carousel-card .more-images
+{
+    top: 70%;
+    height: 30%;
+    width: 80%;
+    display: flex;
+    align-items: stretch;
+    list-style: none;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.product-carousel-card  .card-header:hover .more-images
+{
+    opacity: 1;
+}
+.product-carousel-card .more-images li
+{
+    margin-left: 10px;
+    background-color: #fff;
+    width: 48px;
+    height: 62px;
+}
+.product-carousel-card .more-images li.active
+{
+    border: 1px solid #7b34d1;
+}
+.product-carousel-card .product-gift
+{
+    top: 80%;
+    left: auto;
+    width: 50%;
+    right: 25%;
+}
+.product-carousel-card .product-gift .badge
+{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+}
+.product-carousel-card .card-header:hover .product-gift .badge
+{
+    opacity: 0;
+}
+
+.picture-part > *
+{
+    display: none;
+}
+.picture-part > .active
+{
+    display: flex;
+}
+.product-name p
+{
+    font-size: 0.95rem;
+}
+.product-price
+{
+    font-size: 28px;
+    font-weight: 800;
+}
+.color-carousel .card h6
+{
+    font-size: 12px;
+}
+#productChecking
+{
+    line-height: 30px;
+}
+.size-carousel .card h6
+{
+    font-size: 0.88rem;
+    margin: 10px 0;
+}
+.picture-part .owl-dots
+{
+    display: none;
+}
+.same-products h1
+{
+    font-size: 2rem;
+}
+.same-products .card-body h3
+{
+    font-size: 1.2rem;
+}
+.same-products .card-body p
+{
+    font-size: 0.87rem;
+}
+
+.same-products .card-body span
+{
+    font-size: 0.9rem;
+}
+
+.same-products .product-carousel-card > .d-flex
+{
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.color-carousel .owl-nav
+{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.color-carousel .owl-nav button.owl-prev,
+.color-carousel .owl-nav button.owl-next
+{
+    padding: 0!important;
+    width: 27px;
+    height: 27px;
+}
+
+.color-carousel .owl-nav button.owl-prev span,
+.color-carousel .owl-nav button.owl-next span
+{
+    margin: 0;
+    padding: 0!important;
+    background-color: transparent;
+    color: black;
+}
+
+.color-carousel .owl-dots
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    width: 100px;
+}
+
+.size-carousel .owl-nav
+{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.size-carousel .owl-nav button.owl-prev,
+.size-carousel .owl-nav button.owl-next
+{
+    padding: 0!important;
+    width: 27px;
+    height: 27px;
+}
+
+.size-carousel .owl-nav button.owl-prev span,
+.size-carousel .owl-nav button.owl-next span
+{
+    margin: 0;
+    padding: 0!important;
+    background-color: transparent;
+    color: black;
+}
+
+.size-carousel .owl-dots
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    width: 100px;
+}
+.product-discount
+{
+    font-size: 0.7rem;
+}
+.product-discount .badge
+{
+    font-size: 0.8rem;
+}
+#share-dropdown
+{
+    left: 0;
+    width: 58px;
+    top: 100%;
+    z-index: 5;
+}
+#share-dropdown a
+{
+    display: flex;
+    margin: 10px 0;
+    justify-content: flex-start;
+}
+#share-dropdown img
+{
+    width: 30px;
+    height: 30px;
+}
+#product-detail .table-striped
+{
+    --bs-table-striped-bg : rgb(255,255,255)
+}
+#product-detail .table-striped tr
+{
+    border-color: rgba(0,0,0,0);
+}
+#product-detail .table-striped td:first-child
+{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#product-detail .table-striped td:last-child
+{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.product-carousel .owl-nav
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 108%;
+    left: -4%;
+    top: 30%;
+}
+.product-carousel .owl-nav button.owl-prev,
+.product-carousel .owl-nav button.owl-next
+{
+    padding: 0!important;
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.product-carousel .owl-nav button.owl-prev span,
+.product-carousel .owl-nav button.owl-next span
+{
+    margin: 0;
+    padding: 0!important;
+    background-color: transparent;
+    color: black;
+}
+.product-image-background
+{
+    z-index: 3;
+    background-color: rgba(0,0,0,0.03);
+}
+.image-carousel .owl-item
+{
+    height: 695px;
+}
+.color-carousel .card.opacity-50 .card-not-found
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    color: #FFFFFF;
+}
+.color-carousel .card.opacity-50 .card-not-found .badge
+{
+    font-size: 0.78rem;
+}
+.size-carousel .card.opacity-50 .card-not-found
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    color: #FFFFFF;
+}
+.size-carousel .card.opacity-50 .card-not-found .badge
+{
+    font-size: 0.68rem;
+}
+.zoomWindowContainer
+{
+    z-index: 50;
+}
+.zoomContainer
+{
+    z-index: 50;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 767px){
+    .container
+    {
+        max-width: 95%;
+    }
+    .breadcrumb .container a
+    {
+        font-size: 11px;
+    }
+    .product-carousel .owl-nav
+    {
+        width: 104%;
+        left: -2%;
+    }
+    .product-detail .btn
+    {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .picture-part .owl-dots
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .picture-part .owl-carousel button
+    {
+        padding: 0 !important;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        margin-left: 10px;
+        display: flex;
+    }
+    .picture-part .owl-carousel button span
+    {
+        padding: 0!important;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .picture-part .owl-carousel button.active
+    {
+        width: 30px;
+        height: 7px;
+        border-radius: 12px;
+    }
+    .picture-part .owl-carousel button.active span
+    {
+        background-color: black;
+        border-radius: 12px;
+    }
+    .product-gift-absolute
+    {
+        z-index: 5;
+        right: 0;
+        top: 15px;
+    }
+    .product-actions-absolute
+    {
+        bottom: 5%;
+        right: 6px;
+        z-index: 6;
+    }
+    .product-actions-absolute button
+    {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+        border-radius: 50%;
+    }
+    .product-price
+    {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .product-name h2
+    {
+        font-size: 1rem;
+    }
+    .product-name p
+    {
+        font-size: 0.7rem;
+        margin-top: 15px;
+    }
+    .product-color h5
+    {
+        font-size: 0.87rem;
+    }
+    .color-carousel .card h6
+    {
+        font-size: 10px;
+    }
+    .color-carousel .owl-nav
+    {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .color-carousel .owl-nav button.owl-prev,
+    .color-carousel .owl-nav button.owl-next
+    {
+        padding: 0!important;
+        width: 27px;
+        height: 27px;
+    }
+
+    .color-carousel .owl-nav button.owl-prev span,
+    .color-carousel .owl-nav button.owl-next span
+    {
+        margin: 0;
+        padding: 0!important;
+        background-color: transparent;
+        color: black;
+    }
+
+    .color-carousel .owl-dots
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+        width: 100px;
+    }
+    .color-carousel .owl-dots button
+    {
+        padding: 0 !important;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-left: 10px;
+        display: flex;
+    }
+    .color-carousel .owl-dots button span
+    {
+        padding: 0!important;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .color-carousel .owl-carousel button.active span
+    {
+        background-color: black;
+        border-radius: 12px;
+    }
+    .size-carousel .card h6
+    {
+        font-size: 0.67rem;
+    }
+    .add-to-cart
+    {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        left: 0;
+        background-color: #FFFFFF;
+        bottom: 0;
+        padding: 10px 0;
+        z-index: 10;
+        border-top: 1px solid #d8d8d8;
+    }
+    .add-to-cart button
+    {
+        font-size: 12px;
+        padding: 7px 0 !important;
+    }
+    .site-reliability img
+    {
+        width: 38px;
+        height: 38px;
+        filter: none;
+    }
+    .site-reliability h6
+    {
+        font-size: 0.66rem;
+    }
+    .product-detail .btn
+    {
+        font-size: 9px;
+        padding: 5px;
+    }
+    #product-status
+    {
+        font-size: 11px;
+    }
+    #product-status h6
+    {
+        font-size: 9px;
+    }
+    #product-status h4
+    {
+        font-size: 12px;
+    }
+    #product-status h5
+    {
+        font-size: 11px;
+    }
+    .comment-text h3
+    {
+        font-size: 13px;
+    }
+    .comment-text h3 small
+    {
+        font-size: 9px;
+    }
+    .comment-text h3 span
+    {
+        font-size: 12px;
+    }
+    .comment-body
+    {
+        font-size: 10px;
+    }
+    .comment-status img
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .comment-status p
+    {
+        font-size: 10px;
+    }
+    .add-comment-body
+    {
+        font-size: 11px;
+    }
+    .add-comment .form-control-lg
+    {
+        width: 100% !important;
+        font-size: 12px;
+        padding: 15px 10px;
+    }
+    .comment-status-choice > label
+    {
+        width: 100%;
+        margin-right: 0!important;
+    }
+    .comment-status-choice > label:nth-child(n+1)
+    {
+        margin-top: 15px;
+    }
+    .comment-status-choice label input ~ ion-icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .comment-status-choice button.btn
+    {
+        font-size: 12px;
+        margin-top: 15px;
+        padding: 10px 21px !important;
+        border-radius: 10px;
+    }
+    .same-products h1
+    {
+        font-size: 17px;
+    }
+    .product-carousel-card .product-gift .badge
+    {
+        font-size: 10px;
+        height: 35px;
+    }
+    .product-carousel-card .product-gift
+    {
+        width: 70%;
+        right: 15%;
+    }
+    .product-carousel-card .more-images
+    {
+        padding-right: 0;
+    }
+    .product-carousel-card .more-images li
+    {
+        width: 30px;
+        height: 36px;
+    }
+    .product-carousel-card .card-body h3
+    {
+        font-size: 13px;
+    }
+    .product-carousel-card .card-body p
+    {
+        font-size: 9px;
+    }
+
+    .product-carousel-card .card-body span
+    {
+        font-size: 11px;
+    }
+
+    .product-carousel-card > .d-flex .btn.border
+    {
+        padding: 5px;
+        font-size: 9px;
+    }
+    #share-dropdown-responsive
+    {
+        right: 0;
+        width: 55px;
+        top: 100%;
+    }
+    #share-dropdown-responsive a
+    {
+        margin: 10px 0;
+    }
+    #share-dropdown-responsive img
+    {
+        width: 80%;
+    }
+    .discount-badge
+    {
+        font-size: 14px;
+    }
+    .product-discount .badge
+    {
+        font-size: 0.7rem;
+    }
+    .product-carousel-card .card-header > img
+    {
+        height: 300px;
+    }
+    .product-carousel-card .card-header:hover .more-images
+    {
+        top: 80%;
+    }
+    .product-carousel-card .more-images li span
+    {
+        font-size: 12px;
+    }
+    .product-carousel-card > .d-flex .btn.border-indigo
+    {
+        font-size: 10px;
+        padding: 6px;
+    }
+    .product-image-background
+    {
+        background-color: rgba(0,0,0,0);
+        z-index: 0;
+    }
+    .color-carousel .card.opacity-50 .card-not-found .badge
+    {
+        font-size: 0.68rem;
+    }
+    .size-carousel .card.opacity-50 .card-not-found .badge
+    {
+        font-size: 10px;
+    }
+    .image-carousel .owl-item
+    {
+        height: 390px;
+    }
+
+}
