@@ -30,6 +30,7 @@ $(document).ready(function (){
         dots : true,
         onTranslated : change_zoom,
         onInitialized : change_zoom,
+        onChanged: change_zoom,
         responsive : {
             0 :{
               dotsContainer: null
@@ -39,6 +40,23 @@ $(document).ready(function (){
             }
         }
     })
+//     $(".owl-item").owlCarousel({
+//     items : 1,
+//     margin : 20,
+//     rtl : true,
+//     dots : true,
+//     onTranslated : change_zoom,
+//     onInitialized : change_zoom,
+//     onChanged: change_zoom,
+//     responsive : {
+//         0 :{
+//           dotsContainer: null
+//         },
+//         768 : {
+//             dotsContainer: "#carousel-custom-dots"
+//         }
+//     }
+// })
     $(".size-carousel").owlCarousel({
         items : 7,
         margin : 12,
@@ -63,6 +81,7 @@ $(document).ready(function (){
             }
         }
     })
+
     $(".product-carousel").owlCarousel({
         items : 4,
         margin : 15 ,
@@ -89,6 +108,7 @@ $(document).ready(function (){
             }
         }
     })
+
     function run_elvate() {
         $(".image-carousel .owl-item.active img[data-zoom-image]").elevateZoom({
             zoomWindowFadeIn: 500,
@@ -97,7 +117,7 @@ $(document).ready(function (){
             lensFadeOut: 500,
 			zoomType : "inner",
 			cursor: "crosshair",
-            scrollZoom: true
+            scrollZoom: false
         })
     }
     function change_zoom(event){
@@ -106,4 +126,26 @@ $(document).ready(function (){
             run_elvate()
         }
     }
+
+    var zoom = $(".zoom-container");
+    var zoomConfig = {
+        zoomType: "inner",
+        cursor: "crosshair",
+        galleryActiveClass: "active",
+        zoomWindowFadeIn: 200,
+        zoomWindowFadeOut: 200,
+        lensFadeIn: 200,
+        lensFadeOut: 200,
+        easing: true,
+        /* loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif', */
+        /* imageSrc: $('.pdp-gallery .owl-stage .owl-item.active img').attr('data-zoom') */
+    };
+    
+    // let zoomContainer = document.querySelector('.image-carousel')
+    // zoomContainer.addEventListener('click',()=>{
+    //     alert('fuck you')
+    // })
+    // owlActive.forEach(el => {
+
+    // })
 })

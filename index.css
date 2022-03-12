@@ -874,3 +874,6 @@ body
     }
 
 }
+.zoomWindowContainer{
+    right: 0px !important;
+}
